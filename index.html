@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!--/roboto-->
+    <title>Griglia Campo Minato</title>
+    <!--css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--/css-->
+</head>
+
+<body>
+    <header class="flex">
+        <!--logo e titolo gioco-->
+        <div class="flex">
+            <img src="img/Logo.png" alt="logo">
+            <h1>Campo Minato</h1>
+        </div>
+        <!--/logo e titolo gioco-->
+        <div>
+            <!--selettore difficoltà-->
+            <label for="difficolta">difficoltà:</label>
+            <select name="difficolta" id="difficolta">
+                <option value="facile">facile</option>
+                <option value="media">media</option>
+                <option value="difficile">difficile</option>
+            </select>
+            <!--/selettore difficoltà-->
+                <!--bottone inizia gioco-->
+                <button class="btn">Play</button>
+                <!--/bottone inizia gioco-->
+        </div>
+    </header>
+    <main class="flex">
+        <div class="messaggio">
+        <h2>PRESS PLAY FOR START!</h2>
+        </div>
+        <!--contenitore celle-->
+        <div class="board">
+        </div>
+        <!--/contenitore celle-->
+    </main>
+    <footer>
+        Made with &#10084; by <a href="">Boolean</a>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
