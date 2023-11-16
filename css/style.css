@@ -100,6 +100,26 @@ height: calc(100% / 10);
 .select-cell{
     background-color: #007fff;
 }
+.bomb{
+    background-color: red;
+}
+.messaggio-finale{
+    font-size: 1.875rem;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    /*spostiamo indietro di metà della sua misura di originale per centrarlo*/
+    transform: translate(-50%, -50%);
+}
+.show{
+    display: block;
+}
+.perso{
+    color: red;
+}
+.vinto{
+    color:#007fff;
+}
 /*main*/
 /*footer*/
 footer{
